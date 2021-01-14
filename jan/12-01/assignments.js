@@ -54,6 +54,12 @@ console.log("--------Exercise-------");
 // isLEQZero(0) ➞ true
 // isLEQZero(-4) ➞ true
 // isLEQZero(10) ➞ false
+
+const isLEQZero = (num) => {
+  return num <= 0;
+};
+
+console.log(isLEQZero(3));
 console.log("--------Exercise-------");
 
 //  Dog Years. Create a function which calculates how old a dog is in dog years. The function should accept one argument that is the dog's age in human years.
@@ -73,6 +79,16 @@ console.log("--------Exercise-------");
 // calcLifetimeSupply(25, 2) ➞ "The snack company should provide you with 54,788 units, until you are a ripe old age of 100. Happy snacking!"
 
 // calcLifetimeSupply(40, 3) ➞ "The snack company should provide you with 65,745 units, until you are a ripe old age of 100. Happy snacking!"
+
+const calcLifetimeSupply = (age, amountPerDay) => {
+  let result = 0;
+  let amountPerYear = amountPerDay * 365;
+  let yearsToLive = 100 - age;
+  result = amountPerDay * yearsToLive;
+
+  return `The snack company should provide you with ${result} units, until you are a ripe old age of 100. Happy snacking!`;
+};
+console.log(calcLifetimeSupply(88, 3));
 
 console.log("--------Exercise-------");
 //  Number to Month Name
@@ -95,6 +111,11 @@ console.log("--------Exercise-------");
 // Example:
 
 // countOccurrences("this is a string", "i") ➞ 3
+const numCount("occurrences", 0)  => {
+  return numCount <= 0;
+};
+
+console.log(numCount(occurrences, 3));
 
 console.log("--------Exercise-------");
 /*  draw this shapes in your console
@@ -117,6 +138,21 @@ Third shape
 Bounce: Forth shape
 Be creative and show us your Artistic side
 */
+
+const numbersCount = () => {
+      let text;
+
+      for (let i = 5; i >= 0; i--){
+      text = "";}
+      for ( let j =1; j <=i; j++){
+        text += j;}
+      
+      console.log("text");
+      
+        
+      }
+
+};
 
 console.log("--------Exercise-------");
 /*  Finish the following function so it outputs looks like this:
