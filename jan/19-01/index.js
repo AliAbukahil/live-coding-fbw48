@@ -47,10 +47,27 @@ dictionary(“beau”, [“pastry”, “delicious”, “name”, “boring”]
 
 */
 
-const dictionary = ("str", [“button”, “breakfast”, “border”]) => {
+/* const dictionary = ("str", [“button”, “breakfast”, “border”]) => {
   let result = [];
   for (let i = 0; i < str; i++) {
     if ()
   }
 };
 console.log(dictionary());
+ */
+
+const dictionary = (str, arr) => {
+  let result = [];
+  let userInput = str.toLowerCase();
+  for (let i = 0; i < str.length; i++) {
+    let currentValue = arr[i].toLowerCase();
+
+    if (currentValue.includes(userInput)) {
+      result.push(currentValue);
+    }
+  }
+  return result;
+};
+
+console.log(dictionary("bo", ["cool", "Bool", "nool", "doOOol"]));
+console.log(dictionary("bolll", ["cool", "nool", "doOOol"]));
