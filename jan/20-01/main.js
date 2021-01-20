@@ -43,3 +43,46 @@ console.log(arr4.lastIndexOf(""));
 let arr5 = [55, 66, 33, 33, 99, 88, "moo"];
 let newArr5 = arr5.fill(0, 1, 88, 44);
 console.log(newArr5);
+
+// do loop
+
+let counter = 550;
+do {
+  console.log(counter);
+  counter++;
+} while (counter <= 10);
+
+// while loop()
+
+let loopOne = 3;
+while (loopOne < 5) {
+  //loopOne++;
+  console.log(loopOne);
+  loopOne++;
+}
+//console.log(loopOne);
+
+/* const findVowels = (str) => {
+    let counter = 0
+    let vowelArr = ["a", "e", "o", "i", "u"];
+    for(let i=0; i<str.length;i++){
+        for(let j = 0; j< (vowelArr[j])) {
+            if (str [i].includes(vowelArr[j])) {
+                counter++;
+            }
+        }
+    }
+    return counter;
+}; */
+
+const cleanUp = (arr) => {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (!result.includes(arr[i])) {
+      result.push(arr[i]);
+    }
+  }
+
+  return result;
+};
+console.log(cleanUp([5, 10, 5, 10, 25]));
