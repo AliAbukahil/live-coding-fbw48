@@ -32,3 +32,14 @@ let bool = Array.isArray([]);
 console.log(bool);
 
 // . lastIndexOf()
+const arr4 = ["go", "We", "home", "you", "You", "we", "Iam", ""];
+console.log(arr4.lastIndexOf("go"));
+console.log(arr4.lastIndexOf("You"));
+console.log(arr4.indexOf("go"));
+console.log(arr4.lastIndexOf(""));
+// . fill()
+// (what, from, to ) => (2,3,3,)
+
+let arr5 = [55, 66, 33, 33, 99, 88, "moo"];
+let newArr5 = arr5.fill(0, 1, 88, 44);
+console.log(newArr5);
