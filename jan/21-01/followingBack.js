@@ -126,5 +126,38 @@ let textCutter = "It Is all about the Benjamin!";
 textCutter = textCutter.toUpperCase();
 console.log(textCutter);
 
-textCutter = textCutter.substring(20);
+textCutter = textCutter.substring(16, 29);
 console.log(textCutter);
+
+// Array
+
+let firstName1 = "Natasha";
+let lastName1 = "Sharapova";
+let age = 24;
+let isMarried = true;
+let country = "Germany";
+
+let id_1 = ["Natasha", "Sharapova ", 24, true, "Germany"];
+
+console.log(
+  "\n Name: " +
+    id_1[0] +
+    "\n LastName: " +
+    id_1[1] +
+    "\n Age: " +
+    id_1[2] +
+    "\n Married: " +
+    id_1[3] +
+    "\n Country: " +
+    id_1[4]
+);
+
+console.log(id_1[0] + id_1[1] + id_1[2] + id_1[3] + id_1[4] /*  + id_1[5] */); // Number 5 will show me undefined because there is no index 5 in the Array in the variable id_1
+
+console.log(id_1.indexOf(true));
+console.log(id_1.indexOf("Germany"));
+console.log(id_1.indexOf("Natasha"));
+console.log(id_1.indexOf(24));
+console.log(id_1.indexOf("Sharapova "));
+
+console.log(id_1.length);
