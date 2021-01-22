@@ -136,7 +136,7 @@ let lastName1 = "Sharapova";
 let age = 24;
 let isMarried = true;
 let country = "Germany";
-
+//     indexes:        i[0]         i[1]    i[3]  i[4]    i[5]
 let id_1 = ["Natasha", "Sharapova ", 24, true, "Germany"];
 
 console.log(
