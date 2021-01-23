@@ -30,3 +30,12 @@ switch (fruit) {
     console.log("Sorry We Don't Have This Kind Of Fruit!");
     break;
 }
+
+// While loop
+
+let count = 1;
+while (count <= 21) {
+  document.getElementById("while-loop").innerHTML +=
+    "Student: " + count + "<br>";
+  ++count;
+}
