@@ -33,9 +33,28 @@ switch (fruit) {
 
 // While loop
 
-let count = 1;
+/* let count = 1;
 while (count <= 21) {
   document.getElementById("while-loop").innerHTML +=
     "Student: " + count + "<br>";
   ++count;
+} */
+
+/* let id2 = ["Name: IronMan", " || ", "Age: 45", " || ", "Country: USA"];
+for (let count = 0; count < id2.length; count++) {
+  document.getElementById("while-test").innerHTML += id2[count]+ "<br>";
+} */
+
+/* for (let count = 5; count <= 10; ++count) {
+  document.getElementById("while-loop").innerHTML +=
+    "Student: " + count + "<br>";
+} */
+let i = 0;
+
+while (i <= 10) {
+  if (i == 8) {
+    break;
+  }
+  console.log("ID: " + i);
+  ++i;
 }
