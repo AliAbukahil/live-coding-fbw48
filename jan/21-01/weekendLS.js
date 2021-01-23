@@ -49,7 +49,8 @@ for (let count = 0; count < id2.length; count++) {
   document.getElementById("while-loop").innerHTML +=
     "Student: " + count + "<br>";
 } */
-let i = 0;
+
+/* let i = 0;
 
 while (i <= 10) {
   if (i == 8) {
@@ -57,4 +58,11 @@ while (i <= 10) {
   }
   console.log("ID: " + i);
   ++i;
+} */
+
+for (let count = 0; count <= 10; ++count) {
+  if (count == 8) {
+    continue;
+  }
+  document.getElementById("while-test").innerHTML += "ID: " + count + "<br>";
 }
