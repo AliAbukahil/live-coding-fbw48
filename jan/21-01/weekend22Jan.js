@@ -35,3 +35,18 @@ console.log(data["language"]);
 //console.log(data["myFunction"]); ????
 
 console.log(data); // لعرض البيانات المتواجده ضمن اوبجكت
+
+// How to make many objects in one object!
+
+let users = {
+  user1: { email: "user1@gmail.com", password: "text123456" },
+  user2: { email: "user2@gmail.com", password: "text654321" },
+  user3: { email: "user3@gmail.com", password: "text987654321" },
+};
+console.log(users);
+console.log(users.user1);
+// console.log(user["user3"]); ??? Not Printing out!!!
+
+//alert(users.user2.email);
+//alert(users.user3.password);
+//alert(users["user1"]["email"]);
