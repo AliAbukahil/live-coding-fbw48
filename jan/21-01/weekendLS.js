@@ -60,9 +60,33 @@ while (i <= 10) {
   ++i;
 } */
 
-for (let count = 0; count <= 10; ++count) {
+/* for (let count = 0; count <= 10; ++count) {
   if (count == 8) {
     continue;
   }
   document.getElementById("while-test").innerHTML += "ID: " + count + "<br>";
+} */
+/* let count = 0;
+do {
+  document.getElementById("while-test").innerHTML += "ID: " + count + "<br>";
+  count++;
+} while (count <= 10); */
+// TEST §§§§§§§§
+/* for (let i = 0; i >= 0; i--) {
+  alert("We are the best");
+} */
+
+// foreach loop
+
+/* let myHobbies = ["Cooking", "Running", "learning", "Coding"];
+
+document.write(myHobbies[0]);
+
+for (let i in myHobbies) {
+  // alert("hi");
+  console.log(myHobbies[i]);
 }
+ */
+
+"hello".toUpperCase(); // "HELLO";
+console.log("hello");
