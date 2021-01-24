@@ -78,12 +78,17 @@ do {
 
 // foreach loop
 
-/* let myHobbies = ["Cooking", "Running", "learning", "Coding"];
+let myHobbies = ["Cooking", "Running", "learning", "Coding", "Programming"];
 
-document.write(myHobbies[0]);
+/* document.write(myHobbies[3]);
 
 for (let i in myHobbies) {
   // alert("hi");
   console.log(myHobbies[i]);
-}
- */
+} */
+
+let list = document.getElementById("list");
+myHobbies.forEach((items) => {
+  list.innerHTML += "<li>" + items + "</li>";
+  console.log(items);
+});
