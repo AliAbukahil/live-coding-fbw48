@@ -87,6 +87,3 @@ for (let i in myHobbies) {
   console.log(myHobbies[i]);
 }
  */
-
-"hello".toUpperCase(); // "HELLO";
-console.log("hello");
