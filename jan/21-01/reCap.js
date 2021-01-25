@@ -165,3 +165,19 @@ However, you could also use the + to concatenate 2 strings together, which means
 Here's an example: */
 
 "Hello" + "World"; //"HelloWorld"
+
+///// `THE backtick`
+
+/* String interpolation
+Complete the function sayHello such that it interpolates the variable name into a string "Hello name".
+Consider Learn Programming if you're stuck. */
+
+/**
+ {string} name
+ */
+function sayHello(name) {
+  return `Hello ${name}`;
+}
+
+//sample usage
+console.log(sayHello("John"));
