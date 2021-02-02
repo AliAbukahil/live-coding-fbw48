@@ -129,4 +129,4 @@ console.log(parseFloat(float));
  */
 
 // Math.random
-console.log(Math.floor(Math.random() * 10) + 1); // Math.random gives a new number every time you hit control save and Math.random has a comma/point in its structure and numbers after the comma/point and you can multiply that number and you can throw the numbers after the comma/point with many methods such as math floor/ceil/float as shown in line 132 and if you want to get a range of numbers between 1 to 10 you add the +1 to get the 10 number in your random range of NUmbers
+console.log(Math.floor(Math.random() * 10) + 1); // Math.random gives a new number every time you hit control save and Math.random has a comma/point in its structure and numbers after the comma/point and you can multiply that number and you can throw the numbers after the comma/point with many methods such as math floor/ceil/float as shown in line 132 and if you want to get a range of numbers between 1 to 10 you add the +1 to get the 10 or other numbers which you add before the +1 number in your random range of numbers.
