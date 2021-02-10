@@ -54,10 +54,17 @@ console.log(
 );
 console.log(people.map((person) => person.lName)); // the one line arrow Function! Cooler looking function right!
 
+//ANOTHER EXAMPLE!
 //Before!
 /* let demo = function () {
   console.log(this);
 };
+
+window.addEventListener("load", demo);
+
+document.getElementById("btn").addEventListener("click", demo); */
+// After!
+/* let demo = () => console.log(this);
 
 window.addEventListener("load", demo);
 
