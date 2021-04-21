@@ -1,0 +1,49 @@
+/* The :first-child pseudo-class  */
+
+article p:first-child {
+  font-weight: bold;
+  color: blue;
+}
+
+/* THe ::before pseudo-element creates a that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default. */
+
+p::before {
+  content: "*";
+  background: chocolate;
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+p::after {
+  content: "*";
+  background: chocolate;
+  display: block;
+  width: 10px;
+  height: 10px;
+}
